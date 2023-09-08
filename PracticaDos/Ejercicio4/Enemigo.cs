@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace PracticaDos.Ejercicio4
 {
-    internal class Ejercicio4 : IPractica2
+    public class Enemigo 
     {
-        public void Ejecutar()
-        {
+        public int Vida { get; set; }
 
-        }
+        public int Nivel { get; set; }
+
+
     }
 }

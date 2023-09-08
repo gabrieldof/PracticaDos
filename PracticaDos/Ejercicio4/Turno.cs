@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticaDos.Ejercicio4
 {
-    internal class Ejercicio4 : IPractica2
+    internal class Turno
     {
-        public void Ejecutar()
-        {
-
-        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticaDos.Ejercicio4
 {
-    public abstract class Personaje
+    public abstract class Personaje : IMoverse
     {
         public string Nombre { get; set; }
         public int Fuerza { get; set; }
@@ -21,6 +21,13 @@ namespace PracticaDos.Ejercicio4
             Console.WriteLine($"{Nombre} hizo {CalcularDanio()} de daño");
         }
 
-
+        public void MoverseEjeX()
+        {
+            Console.WriteLine($"{Nombre}  se movió en el eje X");
+        }
+        public void MoverseEjeY()
+        {
+            Console.WriteLine($"{Nombre}  se movió en el eje Y");
+        }
     }
 }
