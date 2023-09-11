@@ -38,7 +38,7 @@ namespace PracticaDos.Ejercicio4
         }
         public override void Atacar()
         {
-            Console.WriteLine($"{Nombre} hizo {CalcularDanio()} de daño grqacias a su magia");
+            Console.WriteLine($"{Nombre} hizo {CalcularDanio()} de daño gracias a su magia");
         }
 
     }
