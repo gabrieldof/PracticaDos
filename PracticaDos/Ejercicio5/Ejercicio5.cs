@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace PracticaDos.Ejercicio5
 {
-    internal class Ejercicio5
+    internal class Ejercicio5 : IPractica2
     {
+        public void Ejecutar()
+        {
+
+        }
     }
 }

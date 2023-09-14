@@ -21,7 +21,9 @@ namespace PracticaDos.Ejercicio5
         }
 
         public void Conducir()
-        { }
+        {
+        
+        }
 
 
     }
